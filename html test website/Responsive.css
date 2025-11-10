@@ -1,0 +1,653 @@
+
+
+@media (max-width: 660px) {
+.top_header{
+  padding: 5px 10px;
+
+}
+
+
+.top_header .btn{
+  background: #dd3333;
+  max-width: 100%;
+  padding: 8px 12px 8px 12px;
+
+}
+
+.card .btn a,
+.top_header .btn {
+    font-size: 12px;
+    font-weight: 500;
+
+}
+    .empty-box{
+      width: 0%;
+    }
+    .header-bottom{
+      padding-top:5% 0;
+    }
+  .header-bottom form {
+    display: none;
+   
+  }
+
+.logo-img{
+  width: 100%;
+  max-width: 340px;
+
+}
+.logo-img img {
+    width: 100%;
+    height: auto;
+}
+.hamburger{
+  display: flex;
+  color: white;
+    font-size: 26px;
+  font-weight: bold;
+  cursor: pointer;
+}
+  .nav_menu ul {
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px 0;
+  }
+
+  .nav_menu li {
+    font-size: 16px;
+    text-align: center;
+  }
+
+
+/*banner section*/
+#main{
+  padding:50px 12px;
+}
+
+.main_content{
+flex-direction: column;
+  gap: 30px;
+
+
+}
+.featured_post{
+      width: 100%;
+  gap: 10px;
+}
+
+.side_bar{
+  width: 100%;
+
+}
+
+
+.featured_main_title h2{
+font-size: 45px;
+
+
+}
+.main_title h2{
+  font-size: 26px;
+}
+.post_title {
+    margin-top: 10px;
+}
+/*mainsection 2*/
+
+.featured_post-cards{
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card{
+  background: url("images/1.jpeg");
+  padding: 20% 5% 10% 5%;
+  object-fit: contain;
+    object-position: center center;
+    opacity: 100%;
+}
+
+.card .btn{
+  padding:2% ;
+  width: 40%;
+
+
+}
+.card a{
+  font-size: 20px;
+  line-height: 1.2;
+
+}
+
+.card .btn a{
+  font-size: 14px;
+  text-align: center;
+}
+
+/*celebrity part*/
+.celebrity_post{
+  flex-direction: column;
+  gap: 30px;
+}
+.celebrity_post_side1{
+  width: 100%;
+}
+
+.celebrity_cards{
+  width: 100%;
+
+
+}
+.featured-post-title {
+    margin-top: 10px;
+}
+.featured-post-title h2 {
+    color: #000000;
+    font-family: "Inter", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.featured_post-img img{
+   max-height: 340px;
+}
+.post_title h2{
+  font-size: 22px;
+}
+.celeb_card a{
+  cursor: pointer;
+}
+.celeb_card p{
+  font-size: 16px;
+}
+
+.post-grid {
+  grid-template-columns: repeat(1, 1fr);
+  gap: 5px;
+}
+
+.post-card {
+  padding: 10px;
+}
+
+.post-card .post-title h2 {
+    font-size: 14px;
+    font-weight: 700;
+}
+.footer {
+    padding: 0 5%;
+    padding-top: 50px;
+    background-color: #000000;
+}
+
+.footer-grid{
+    display: flex;
+    flex-direction: column;
+  gap: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #ffffff;
+}
+
+.footer-col{
+  flex: 1;
+}
+.column2,
+.column3,
+.column1{
+  width: 100%;
+}
+.column2{
+  margin-left: 0;
+}
+
+.footer-posts .footer-post {
+  margin-bottom: 15px;
+  padding: 5px;
+  border-bottom: 1px solid grey;
+}
+
+.footer-posts #post3{
+  border-bottom: none;
+}
+.meta {
+  font-size: 16px;
+  color: #777;
+  margin-top: 5px;
+}
+
+.footer-bottom {
+     padding: 20px 0px;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 1px;
+     justify-content: center;
+
+}
+
+.footer-bottom a ,
+.footer-bottom span {
+
+    text-align: center;
+}
+
+}
+
+/* 661px – 768px */
+@media (max-width: 768px) and (min-width: 661px) {
+.top_header{
+  padding: 2% 3%;
+  border-bottom: 1px solid #abb8c3;
+
+  
+}
+
+.top_header .btn a{
+  font-size: 14px;
+
+}
+.social_icons{
+  gap: 10px;
+}
+.social_icons a{
+
+  padding: 5px;
+  font-size: 22px;
+}
+
+  .logo-img {
+    width: 100%;
+    padding: 2%;
+    margin-left: 0;
+    margin: 0 auto;
+  }
+ .logo-img img{
+  width: 100%;
+ }
+  .header-bottom form {
+    display: none;
+   
+  }
+
+
+  .nav_menu ul {
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px 0;
+  }
+
+  .nav_menu li {
+    font-size: 16px;
+    text-align: center;
+  }
+
+
+/*banner section*/
+#main{
+  padding:50px 3%;
+}
+
+.main_content{
+flex-direction: column;
+  gap: 30px;
+
+
+}
+.featured_post{
+      width: 100%;
+  gap: 10px;
+}
+
+.side_bar{
+  width: 100%;
+
+}
+
+
+.featured_main_title h2{
+          font-size: 35px;
+
+
+}
+.main_title h2{
+  font-size: 26px;
+}
+.post_title {
+    margin-top: 10px;
+}
+
+/*mainsection 2*/
+
+.featured_post-cards{
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card{
+  background: url("images/1.jpeg");
+  padding: 20% 5% 10% 5%;
+  object-fit: contain;
+    object-position: center center;
+    opacity: 100%;
+}
+
+.card .btn{
+  padding: 3%  2%;
+  width: 30%;
+
+
+}
+.card a{
+  font-size: 20px;
+  line-height: 1.2;
+
+}
+
+.card .btn a{
+  font-size: 14px;
+  text-align: center;
+}
+
+/*celebrity part*/
+.celebrity_post{
+  flex-direction: column;
+  gap: 30px;
+}
+.celebrity_post_side1{
+  width: 100%;
+}
+
+.celebrity_cards{
+  width: 100%;
+
+
+}
+.featured-post-title {
+    margin-top: 10px;
+}
+.featured-post-title h2 {
+    color: #000000;
+    font-family: "Inter", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.featured_post-img img{
+   max-height: 340px;
+}
+.post_title h2{
+  font-size: 22px;
+}
+.celeb_card a{
+  cursor: pointer;
+}
+.celeb_card p{
+  font-size: 16px;
+}
+
+.post-grid {
+  grid-template-columns: repeat(1, 1fr);
+  gap: 5px;
+}
+
+.post-card {
+  padding: 10px;
+}
+
+.post-card .post-title h2 {
+    font-size: 14px;
+    font-weight: 700;
+}
+.footer {
+    padding: 0 5%;
+    padding-top: 50px;
+    background-color: #000000;
+}
+
+.footer-grid{
+    display: flex;
+    flex-direction: column;
+  gap: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #ffffff;
+}
+
+.footer-col{
+  flex: 1;
+}
+.column2,
+.column3,
+.column1{
+  width: 100%;
+}
+.column2{
+  margin-left: 0;
+}
+
+.footer-posts .footer-post {
+  margin-bottom: 15px;
+  padding: 5px;
+  border-bottom: 1px solid grey;
+}
+
+.footer-posts #post3{
+  border-bottom: none;
+}
+.meta {
+  font-size: 16px;
+  color: #777;
+  margin-top: 5px;
+}
+
+.footer-bottom {
+     padding: 20px 0px;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 1px;
+     justify-content: center;
+
+}
+
+.footer-bottom a ,
+.footer-bottom span {
+
+    text-align: center;
+}
+}
+
+/* 769px – 1024px (Tablet / Small Laptop) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .top_header {
+    padding: 10px 20px;
+  }
+
+  .logo-img {
+    width: 40%;
+    margin: 0 auto;
+  }
+  .logo-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .header-bottom form {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .nav_menu ul {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  .nav_menu li a {
+    font-size: 12px;
+  }
+
+  /*  main */
+  #main {
+    padding: 40px 5%;
+  }
+.post_title h2 {
+    font-family:Sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1.2em;
+    font-size: 20px;
+}
+.main_title h2{
+  text-align: center;
+  color:#dd3333 ;
+  font-family: "Inter", Sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+        text-shadow: -2px 1px 0px #000000;
+    font-style: italic;
+
+}
+.featured_main_title h2{
+   font-size: 45px;
+    font-weight: 900;
+text-shadow: -2px 1px 0px #000000;
+font-style: normal;
+
+}
+  .main_content {
+    flex-direction: row;
+    gap: 20px;
+  }
+  .featured_post {
+    width: 65%;
+  }
+  .side_bar {
+    width: 35%;
+  }
+
+  .featured_post-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .card {
+    width: 33.3333%
+    padding: 10% 5%;
+  }
+  .card a {
+    font-size: 18px;
+  }
+
+  /* celebrity section */
+  .celebrity_post {
+    flex-direction: row;
+    gap: 20px;
+  }
+  .celebrity_post_side1 {
+    width: 65%;
+  }
+  .celebrity_cards {
+    width: 35%;
+  }
+
+  /* post grid */
+  .post-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  /* footer */
+  .footer {
+    padding: 0 8%;
+    padding-top: 50px;
+  }
+  .footer-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .column1,
+  .column3 {
+    width: 40%;
+  }
+  .column2 {
+    width: 20%;
+    margin-left: 0;
+  }
+}
+
+/*/* 1025px – 1280px (Large screens, below desktop max) */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .top_header {
+    padding: 15px 40px;
+  }
+
+  .logo-img {
+    width: 28%;
+  }
+
+  .header-bottom form {
+    width: 35%;
+  }
+
+  .nav_menu ul {
+    gap: 40px;
+    font-size: 16px;
+  }
+
+  #main {
+    padding: 50px 5%;
+  }
+
+  .main_content {
+    flex-direction: row;
+    gap: 25px;
+  }
+
+  .featured_post {
+    width: 68%;
+  }
+  .side_bar {
+    width: 32%;
+  }
+
+  .featured_post-cards {
+    flex-direction: row;
+    gap: 20px;
+  }
+  .card {
+    width: 32%;
+    padding: 12% 5% 8% 5%;
+  }
+
+  .celebrity_post {
+    flex-direction: row;
+    gap: 25px;
+  }
+  .celebrity_post_side1 {
+    width: 70%;
+  }
+  .celebrity_cards {
+    width: 30%;
+  }
+
+  .post-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .footer {
+    padding: 0 8%;
+  }
+  .footer-grid {
+    flex-direction: row;
+    gap: 25px;
+  }
+  .column1,
+  .column3 {
+    width: 35%;
+  }
+  .column2 {
+    width: 25%;
+  }
+}
