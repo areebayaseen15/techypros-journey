@@ -1,0 +1,209 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.see-green {
+  background: #1b5e69;
+}
+
+.card-bg-rounded{
+  background: #0fa0cc;
+}
+
+.text-see-green {
+  color: #07bed3;
+}
+.text-grey{
+  color: grey;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; 
+}
+
+.bg-vedio-wrapper {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+.navbar-nav li a {
+  font-size: 20px;
+}
+
+.heading {
+  font-size: 74px;
+  font-weight: bolder;
+  max-width: 800px;
+  text-align: center;
+}
+.wave-divider {
+  position: absolute;
+  bottom: -15%; 
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  line-height: 0;
+  z-index: 2; 
+}
+
+.wave-divider svg {
+	transform: rotate(180deg);
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+  .cat-img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+    display: block;
+    border-radius: 5px; 
+  }
+
+
+.object-fit-cover {
+  object-fit: cover;
+}
+.bg-whitesmoke{
+	background: whitesmoke;
+}
+#about-uss{
+  background: url("https://texasscubaacademy.com/wp-content/uploads/2025/08/Layer-17.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-image{
+	background: url("images/cschrome-preview.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+  .left-img {
+    height: 500px;
+    object-fit: cover;
+  }
+  .right-img {
+    height: 250px;
+    object-fit: cover;
+  }
+    .boots{
+    	object-fit: contain;
+    }
+  /* Tablet Screens */
+  @media (max-width: 1024px) {
+    .left-img {
+      height: 400px;
+    }
+    .right-img {
+      height: 200px;
+    }
+
+  }
+
+  /* Mobile Screens */
+  @media (max-width: 660px) {
+    .left-img,
+    .right-img {
+    	min-height: 200px;
+      height: auto;
+    }
+    .boots{
+    	height:100px;
+    }
+
+}
+
+
+#our-best-services{
+  background: url("images/bg-choose-us.webp");
+  background-size: cover; 
+  background-position: center;
+}
+
+.bg-footer{
+  background: url('https://texasscubaacademy.com/wp-content/uploads/2025/08/footer-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.product-slider{
+  display: flex;
+  gap: 10px;
+  margin: 20px auto;
+}
+
+
+.card-bg-rounded-arrow {
+  background-color: #f0f0f0; 
+  border-radius: 50%;
+  color: #1b5e69;
+  font-size: 42px;
+  display: inline-block;
+  text-align: center;
+  line-height: 1;
+  font-size: 20px; }
+
+.owl-nav {
+  position: absolute;
+  bottom: -80px; 
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 15px;
+}
+
+.owl-nav button {
+  background-color: white !important;
+  border:2px solid #0fa0cc !important;
+  color: #0fa0cc !important;
+  border-radius: 50% !important;
+  width: 50px;
+  height: 50px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  font-size: 42px !important;
+  font-weight: bolder;
+  transition: all 0.3s ease;
+}
+
+.owl-nav button:hover {
+  background-color: #0fa0cc !important;
+  color: white !important;
+}
+
+.ml-24{
+  margin-left: 32px !important;
+}
+
+
+/* Transparent on large screens */
+.custom-navbar {
+  background: transparent;
+  transition: background 0.3s ease-in-out;
+}
+
+@media (max-width: 991px) {
+  .custom-navbar {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+  }
+}
+
