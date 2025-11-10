@@ -1,0 +1,64 @@
+
+
+// let hamburger = document.querySelector(".hamburger");
+// let nav_links = document.querySelector(".nav_links")
+
+// hamburger.addEventListener("click", () => {
+//   console.log("clicked");
+//   nav_links.classList.slideToggle("active");
+// });
+
+
+  // $(document).ready(function(){
+  //   $("#playButton").click(function(){
+  //     // Convert to JS DOM object using [0]
+  //     $("#myVideo")[0].play();
+
+  //     // Update button visibility
+  //     $("#playButton").css("display", "none");
+  //     $("#pauseButton").css("display", "flex");
+  //   });
+
+  //    $("#pauseButton").click(function(){
+  //     // Convert to JS DOM object using [0]
+  //     $("#myVideo")[0].pause();
+
+  //     // Update button visibility
+  //     $("#playButton").css("display", "flex");
+  //     $("#pauseButton").css("display", "none");
+  //   });
+
+  // });
+// short above method
+// function toggleButtons(isPlaying) {
+//   $("#playButton").css("display", isPlaying ? "none" : "flex");
+//   $("#pauseButton").css("display", isPlaying ? "flex" : "none");
+// }
+// $("#playButton").click(function(){
+//   $("#myVideo")[0].play();
+//   toggleButtons(true);  
+// });
+
+// $("#pauseButton").click(function(){
+//   $("#myVideo")[0].pause();
+//   toggleButtons(false);  
+// });
+
+
+  // const playButton = document.querySelector("#playButton");
+  // const video = document.querySelector("#myVideo");
+  // const pauseButton = document.querySelector("#pauseButton")
+
+  // playButton.addEventListener("click", function () {
+  //   video.play();
+  //   playButton.style.display = "none";
+  //   pauseButton.style.display = "flex";
+
+  // });
+     
+  // pauseButton.addEventListener("click", function () {
+  //   video.pause();
+  //   playButton.style.display = "flex";
+  //   pauseButton.style.display = "none";
+
+  // });
