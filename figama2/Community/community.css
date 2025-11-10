@@ -1,0 +1,87 @@
+
+.hero_section{
+    background: url("../images/Rectangle 66 (1).png");
+}
+.hero_section::before {
+  background: url("images/ChatGPT Image 11 jul 2025, 12_40_24 1.png");
+ background-size: cover;
+ background-position: center;
+   animation: none;
+    top: 50px;
+  left: 50px;
+  
+}
+
+.btn{
+align-items: start;
+margin-left: 0;
+}
+.about_us_card{
+ background-image: url('images/image 33.png');
+
+}
+.join-btn{
+	margin: auto;
+}
+
+.about_us{
+	background: url("images/Community Section 1.png");
+	background-repeat: no-repeat;
+
+}
+
+.ugc-section-5{
+	background: url("images/UGC Section 9.png");
+	background-repeat: no-repeat;
+}
+
+.owl-nav button.owl-prev,
+.owl-nav button.owl-next {
+	display: none;
+}
+
+.metoda-section{
+	background: url("images/Community Section 2.png");
+	background-size: cover;
+	background-position: center;
+	padding:10% 10% 15% 10%;
+}
+
+
+.metoda_cards .card {
+    max-width: 413px;
+    padding: 50px 40px;
+    background: rgba(248, 247, 245, 0.3)
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    border: 1px solid rgba(248, 247, 245, 0.3);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    min-height: 300px;
+
+}
+
+.metoda_cards .card ul{
+	min-height: 150px;
+}
+
+.metoda_cards .card p{
+	margin-left: 5%;
+}
+.metoda_cards .card ul li p{
+    font-weight:normal;
+    max-width: 400px;
+
+}
+.card-btn{
+    justify-content: center;
+    margin-top: 0;
+}
+
+.btn #btn2,
+.btn #btn1{
+	max-width: 300px;
+	padding: 10px 40px;
+}
