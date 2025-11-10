@@ -1,0 +1,250 @@
+
+
+.academy_hero_section{
+      background: #D996F7;
+       padding-top: 0;
+       padding-bottom: 0;
+
+
+}
+.academy_hero_section::before {
+  background-image: url("images/ACADEY BRAIN 1.png");
+ background-size: cover;
+   animation: none;
+    top: 50px;
+  left: 0px;
+
+  
+}
+
+.hero_content{
+ padding: 20% 20px 20% 1%;
+
+}
+.hero_content p {
+  max-width: 488px;
+}
+
+.academy-btn{
+  margin-left: 0;
+}
+
+#green{
+  color: #C1FF72;
+
+}
+
+#blue{
+  color:#002FFF
+}
+
+
+
+.metoda_cards .card ul li img{
+  width: 25px;
+  height: 25px;
+}
+.owl-item{
+  min-width: 302px;
+  min-height: 514px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.owl-item.center {
+  scale:1.15;
+  z-index: 3;
+}
+
+
+
+.metoda-section{
+    background: url("images/Academy section 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    bacckground-position: center;
+}
+.metoda_cards{
+    display: flex;
+    gap: 10px;
+
+}
+
+.metoda_cards .card {
+    background: rgba(248, 247, 245, 0.3);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    min-height: 400px;
+      padding: 20px 10px;
+    max-width: 500px;
+  width: fit-content;
+  height: fit-content;
+    transition: transform 0.3s ease-in-out;
+}
+.metoda_cards .card p{
+max-width: 343px;
+}
+
+.metoda_cards .card ul{
+    list-style: none;
+    gap: 20px;
+}
+
+.metoda_cards .card p{
+  margin-top: 10px;
+}
+
+
+.metoda_cards .card ul li p{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    max-width: 380px;
+
+}
+
+.metoda_cards .card ul{
+  min-height: 280px;
+}
+.metoda_cards .card ul li {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.metoda_cards .card ul li img{
+  width: 30px;
+  height: 30px;
+}
+.metoda-btn{
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.small-head{
+    font-size: 28px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.metoda-heading{
+    display: flex;
+}
+
+
+.metoda_cards .owl-nav button.owl-prev,
+.metoda_cards .owl-nav button.owl-next {
+  position: absolute;
+  top: 50%;
+}
+
+.metoda_cards .owl-nav button.owl-prev {
+  left: -25px;
+}
+.owl-nav button.owl-next {
+  right: -25px;
+}
+
+.owl-nav button span {
+  font-size: 50px;
+}
+
+.metoda-heading h1{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+
+.white{
+  color: white;
+}
+.black{
+  color:rgba(0, 0, 0, 0.25);
+;
+}
+.metoda-section .card-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+}
+
+.metoda-section .card-header h5{
+  font-size: 38px;
+  font-weight: bolder;
+}
+
+
+.center{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+
+}
+.pink{
+  font-size: 18px;
+  font-weight: bolder;
+  color: #F316B0;
+  text-align: center;
+  text-decoration: line-through;
+
+}
+
+.dark-black{
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+
+/*responsive layout*/
+
+@media (max-width: 660px) {
+
+.hero_content{
+ padding: 50% 20px 20% 1%;
+
+}
+
+.metoda-section{
+    padding-top: 10%;
+    padding-bottom: 0;
+}
+.metoda_cards{
+    margin:2% auto;
+    margin-bottom: 0;
+
+}
+
+.owl-item{
+  min-width: 302px;
+  min-height: 304px;
+  width: fit-content;
+  height:100%;
+}
+
+.metoda_cards .owl-nav button.owl-prev,
+.metoda_cards .owl-nav button.owl-next {
+  position: absolute;
+  top: 20%;
+}
+
+.metoda_cards .owl-nav button.owl-prev {
+  left: -25px;
+}
+.owl-nav button.owl-next {
+  right: -25px;
+}
+
+.owl-nav button span {
+  font-size: 50px;
+}
+
+}
