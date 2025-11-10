@@ -1,0 +1,584 @@
+
+/* Responsive querries*/
+
+/*  Mobile  */
+@media (max-width: 660px) and (min-width: 300px) {
+  nav {
+    flex-wrap: wrap;
+    padding: 15px 20px;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .nav_links {
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  padding: 10px 0;
+}
+
+.nav_links ul {
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 15px;
+  padding: 0;
+  list-style: none;
+}
+
+.nav_links.active {
+  display: flex;
+}
+.dig_deeper {
+    top: 8%;
+    left: 5%;
+    max-width: 400px;
+    width: 100%;
+  }
+
+.overlay{
+    backdrop-filter: blur(0px);
+        padding: 40% 0 20% 0;
+    box-shadow: none;
+}
+
+ .hero_content {
+    width: 100%;
+    gap: 30px;
+  }
+
+  .hero_content h1 {
+    font-size: 32px;
+    line-height: 1.3;
+  }
+
+  .hero_content p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .btn {
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+  }
+
+  .btn button {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .hero_section::before {
+    background-size: 600px;
+    top: 30px;
+    left: 0;
+  }
+
+  .ugc_btn{
+    margin: auto;
+  }
+ .about_us {
+    padding: 20% 5%;
+  }
+
+.about_us_card{
+  background-size: cover;
+
+
+}
+  .about_us_content h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .about_card_content {
+    padding: 20px;
+    margin:0%;
+    border-radius: 30px;
+    gap: 30px;
+  }
+
+  .about_card_content h2 {
+    font-size: 20px;
+ 
+  }
+
+  .about_card_content p {
+    font-size: 14px;
+  }
+
+  .about_us_card {
+    padding-top: 100%;
+    border-radius: 30px;
+    margin-top: 0;
+  }
+.ugc_community{
+  padding: 20% 10%;
+}
+  .agency{
+    padding: 20% 10%;
+  }
+  .agency-content h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .agency_body h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .agency_body p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .agency_card {
+    gap: 40px;
+  }
+
+  .agency_cards_content {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+
+  .ads {
+    width: 90%;
+    height: 120px;
+    border-radius: 30px;
+  }
+
+  .creativa {
+    width: 90%;
+  }
+
+  .ads_content h4 {
+    font-size: 18px;
+  }
+
+  .ads_content span {
+    font-size: 30px;
+    top: 20px;
+    right: 20px;
+  }
+
+.btn_agency{
+   flex-direction: column;
+
+}
+
+.agency_btn{
+  font-size: 16px;
+  max-width: 350px;
+  padding: 10px 30px;
+}
+
+.owl-item.center {
+  scale:1.05;
+}
+
+
+.owl-nav button.owl-prev {
+  left: -10px;
+}
+.owl-nav button.owl-next {
+  right: -10px;
+}
+ .academy {
+    padding: 5% 5%;
+  }
+  .academy-item {
+    width: 90%;
+    margin: 30px auto;
+    gap: 30px;
+    padding-bottom: 15%;
+  }
+  .owl-nav button span {
+    font-size: 40px;
+  }
+
+  /*footer*/
+.footer-content {
+  flex-direction: column-reverse;
+  padding: 20px 2% 50px 2%;
+
+}
+.footer-left{
+  width: 100%;
+  padding: 0px 20px;
+}
+#dig_deeper{
+  font-weight: bolder;
+  font-size: 20px;
+  margin-left:7%;
+}
+
+.search_bar input {
+  padding: 10px 20px;
+   width: 150px;
+
+}
+
+.search_bar button {
+  padding: 10px 10px;
+  font-size: 20px;
+  width: 50px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+.social-icons i{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: black;
+}
+
+.footer-left p {
+  text-align: center;
+}
+
+.footer-right {
+  width: 100%;
+}
+
+
+}
+
+/* large mobiles */
+@media (min-width: 661px) and (max-width: 767px) {
+  nav {
+    padding: 15px 30px;
+  }
+
+  .nav_links ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .hero_content {
+    width: 100%;
+    padding: 20% 10%;
+  }
+
+  .hero_content h1 {
+    font-size: 62px;
+    text-align: center;
+
+  }
+
+  .hero_content p {
+    font-size: 24px;
+  }
+
+  .btn {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .btn button {
+    width: 70%;
+  }
+
+  .hero_section::before {
+    top: 20px;
+    left: 20px;
+    background-size: 500px;
+  }
+  .about_us {
+    padding: 10% 5%;
+  }
+
+.about_us_card{
+  background-size:700px;
+
+
+}
+  .dig_deeper {
+    top: 10%;
+    left: 8%;
+  }
+  .about_us_content h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .about_card_content {
+    padding: 20px;
+    margin:0%;
+    border-radius: 30px;
+    gap: 30px;
+  }
+
+  .about_card_content h2 {
+    font-size: 20px;
+ 
+  }
+
+  .about_card_content p {
+    font-size: 14px;
+  }
+
+  .about_us_card {
+    padding-top: 50%;
+    border-radius: 30px;
+    margin-top: 0;
+  }
+  .agency_body h2 {
+    font-size: 20px;
+  }
+
+  .agency_body p {
+    font-size: 15px;
+  }
+
+  .agency_cards_content {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .ads {
+    width: 45%;
+    height: 130px;
+    border-radius: 35px;
+  }
+
+  .creativa {
+    width: 90%;
+  }
+
+  .ads_content h4 {
+    font-size: 20px;
+  }
+
+  .ads_content span {
+    font-size: 35px;
+  }
+
+.btn_agency{
+   flex-direction: column;
+
+}
+
+.agency_btn{
+  font-size: 16px;
+  max-width: 350px;
+  padding: 10px 30px;
+}
+
+  .academy {
+    padding: 5% 7%;
+  }
+  .academy-item {
+    width: 80%;
+    margin: 40px auto;
+    gap: 40px;
+    padding-bottom: 17%;
+  }
+  .owl-nav button span {
+    font-size: 40px;
+  }
+  
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .nav_links ul {
+  gap: 20px;
+}
+
+  .dig_deeper {
+    top: 8%;
+    left: 15%;
+  }
+
+  .hero_content {
+    padding-top: 20%;
+  }
+  .hero_content h1 {
+    font-size: 44px;
+  }
+
+  .hero_content p {
+    font-size: 18px;
+  }
+  .hero_section::before {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 100%;
+  height: 100%;
+  background-image: url('images/bubble 1.png');
+  background-size: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+  animation: spin 30s linear infinite;
+  transform-origin: center;
+}
+
+
+  .btn {
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .btn button {
+ width: 80%;
+  }
+  .about_us {
+    padding: 7% 8%;
+  }
+
+
+  .about_us_content h1 {
+    font-size: 24px;
+    text-align: end;
+  }
+
+  .about_card_content {
+    padding: 35px 60px;
+    border-radius: 50px;
+  }
+
+  .about_card_content h2 {
+    font-size: 32px;
+  }
+
+  .about_card_content p {
+    font-size: 16px;
+  }
+
+  .about_us_card {
+    padding-top: 55%;
+    margin: 0;
+  background-size: cover;
+
+  }
+
+.agency_card{
+overflow: hidden;
+position: relative;
+display: flex;
+flex-direction: column;
+gap: 100px;
+
+}
+
+.agency_card::before {
+  background-size:170px;
+}
+
+.agency_cards_content{
+  display: flex;
+  gap: 10px;
+  margin-top: 50px;
+}
+.ads {
+  background-image: url("images/Service block.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 130px;
+  border-radius:50px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 15px;
+  position: relative;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.Google_ads{
+   background-image: url("images/Service block (1).png");
+}
+.tiktok{
+   background-image: url("images/Service Service block (2).png");
+}
+
+.creativa{
+   background-image: url("images/Service Block II.png");
+     width: 350px;
+
+}
+.email_mkt{
+   background-image: url("images/Service block (3).png");
+
+}
+.ads:hover {
+  transform: scale(1.03);
+}
+
+.ads_content {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+}
+
+.ads_content h4 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  width: 100px;
+}
+
+.ads_content span {
+  font-size: 40px;
+  font-weight: bolder;
+  max-width: 100px;
+   position: relative;
+  top: 30px;
+  right: 30px;
+}
+.btn_agency{
+   display: flex;
+   gap: 20px;
+
+}
+
+.agency_btn{
+  font-size: 20px;
+  max-width: 350px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border:1px solid black;
+}
+.academy {
+    padding: 5% 5%;
+    background-position: center center;
+  }
+
+  .academy-item {
+    width: 250px;
+    margin: 50px 20px;
+    padding-bottom: 25%;
+    gap: 30px;
+  }
+
+  .owl-nav button span {
+    font-size: 40px;
+  }
+}
+
