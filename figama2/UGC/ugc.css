@@ -1,0 +1,798 @@
+
+
+
+
+.hero_section{
+     background: white;
+     padding-left: 0%;
+     padding-top:0;
+     padding-bottom: 0;
+
+}
+
+.hero_section::before {
+  background-image: url("images/UGC Main Banner.png");
+ background-size: cover;
+   animation: none;
+    top: 50px;
+  left: 0px;
+
+  
+}
+.overlay{
+      background-color: rgba(248, 247, 245, 0.2); 
+
+}
+.academy_section1{
+	display:flex;
+}
+
+
+.academy_image{
+  z-index: 100;
+}
+
+
+.academy_image img{
+	max-width: 100%;
+	margin-top: 20%;
+}
+.hero_content{
+	padding-left: 15%;
+	padding-right: 5%;
+}
+
+.agency{
+	background: url("images/UGC Section 1.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.agency-content h1{
+	font-weight: 1000;
+	font-size: 38px;
+}
+.ugc_card{
+	background: white;
+}
+.ugc_card{
+	gap: 20px;
+	border: 2px solid black;
+}
+.ugc_card ul{
+	margin: 10px 0;
+}
+ul li{
+	list-style: none;
+	margin-top: 10px;
+}
+
+.ugc_card h2,
+.ugc_card_header h2{
+	font-size: 24px;
+	font-weight: bolder;
+	color: black;
+
+}
+.black,
+.academy_card h1{
+ color: #00000099; ;
+}
+.ugc_card li{
+	display: flex;
+}
+.ugc_card li img{
+	width: 30px;
+	height: 30px;
+}
+
+.esta{
+  margin: auto;
+}
+.ugc_card li p{
+	text-transform: uppercase;
+	max-width: 846px;
+	line-height:22px;
+	font-size: 18px;
+	margin-left: 10px;
+	color: black;
+}
+
+.btn{
+	margin:5% auto 0% 0;
+
+}
+
+.academy_section3{
+	background: url("images/UGC Section 2.png");
+		background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 10%;
+}
+
+.ugc_card .sub-heading{
+	margin-top: 60px;
+}
+
+.ugc_card p{
+	color: black;
+}
+
+.academy_card{
+	 background-color: rgba(248, 247, 245, 0.2); 
+	 border: none;
+
+}
+
+.ugc_community{
+	background: url("images/UGC Section 6.png");
+		background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.ugc_card_section6{
+	background: rgba(217, 150, 247, 0.4);
+}
+
+.ugc_card_section6 h2{
+	font-size: 34px;
+	  color: #00000099;
+}
+
+
+.metoda-section{
+    background: url("images/image 27.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    bacckground-position: center;
+}
+.metoda_cards{
+    display: flex;
+    gap: 20px;
+    margin: auto;
+
+}
+
+.metoda_cards .card {
+    max-width: 413px;
+    padding: 50px 40px;
+    background: rgba(248, 247, 245, 0.3);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    min-height: 622px;
+}
+.metoda_cards .card p{
+max-width: 343px;
+}
+
+.metoda_cards .card ul{
+    list-style: none;
+    gap: 20px;
+}
+
+.metoda_cards .card p{
+	margin-top: 10px;
+}
+.bullet{
+    color: violet;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.metoda_cards .card ul li p{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    max-width: 380px;
+
+}
+
+.metoda_cards .card ul{
+	min-height: 280px;
+}
+.metoda_cards .card ul li {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.metoda_cards .card ul li img{
+	width: 30px;
+	height: 30px;
+}
+.metoda-btn{
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.small-head{
+    font-size: 28px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.metoda-heading{
+    display: flex;
+}
+
+.metoda-heading h1{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+
+.white{
+	color: white;
+}
+.black{
+  color:rgba(0, 0, 0, 0.25);
+;
+}
+.metoda-section .card-header{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 0;
+}
+
+.metoda-section .card-header h5{
+	font-size: 38px;
+	font-weight: bolder;
+}
+
+
+.center{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+
+
+}
+.pink{
+	font-size: 18px;
+	font-weight: bolder;
+	color: #F316B0;
+	text-align: center;
+	text-decoration: line-through;
+
+}
+
+.dark-black{
+	font-size: 24px;
+	font-weight: bold;
+	color: black;
+}
+
+.card-footer{
+	margin: 20px auto;
+	padding:30px 30px;
+	background: rgba(217, 150, 247, 0.4);
+ max-width: 853px;
+ border-radius: 10px;
+
+}
+
+.ugc-section-5{
+	background: url("images/ugc-section-5");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+
+.ugc-section5-card {
+		background: rgba(217, 150, 247, 0.4);
+		max-width: 630px;
+		border: none;
+
+}
+
+.white_hr{
+	color: white;
+}
+
+.arrow-img{
+	text-align: end;
+}
+
+.agency_body{
+gap: 50px;
+
+}
+
+.img-div{
+	/*width: 30%;*/
+}
+
+.agency_container1{
+		display: flex;
+	flex-direction: row;
+	gap: 50px;
+}
+
+
+.faq{
+  background: url("images/UGC Section 4 - Accordion expanded.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+    .Faq_content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .accordion {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        max-width: 1439px;
+        cursor: pointer;
+        border-bottom: 2px solid black;
+    }
+
+
+    .accordion h1 {
+        font-size: 24px;
+        color: #FE4C02;
+    }
+
+        .accordion p {
+        font-size: 20px;
+        color: black;
+        font-weight: bolder;
+    }
+
+    .accordion-content h1{
+      font-size: 40px;
+      font-weight: bolder;
+    }
+.panel ul li{
+  list-style-type:upper-alpha;
+  margin-left: 2%;
+}
+    .panel {
+        display: none;
+        padding: 15px 20px;
+       border-bottom: 2px solid black;
+    }
+.chevron-down{
+  display: none;
+}
+    .panel.show {
+        display: flex;
+    }
+
+
+
+.accordion-cards{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 5%;
+}
+
+.accordion-cards .card{
+   width: 522px;
+   height: 225px;
+     display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px 30px;
+   border-radius: 20px;
+}
+
+.accordion-cards #card2{
+background: rgba(243, 22, 176, 0.2);
+
+  color: #F316B0;
+}
+.accordion-cards #card1{
+  background: #D996F7;
+  color: white;
+
+}
+.accordion-cards .card h1{
+  text-align: start;
+}
+
+
+/*testimonial*/
+.testimonial_card{
+  display: flex;
+  gap: 10px;
+  margin: 5% auto;
+
+
+}
+
+
+.video-wrapper {
+  position: relative;
+    border: 1px solid black;
+   width: 188px;
+  height: 298px;
+  border-radius: 20px;
+}
+
+.video-wrapper video {
+    width: 188px;
+    height: 298px;
+}
+.owl-nav.disabled {
+    display: flex;
+}
+.owl-item{
+    width: 188px;
+  height: 298px;
+
+}
+
+.owl-nav button.owl-prev,
+.owl-nav button.owl-next {
+  position: absolute;
+  top: 50%;
+  background: hotpink;
+}
+.owl-stage{
+  width: 4000px;
+}
+.owl-nav button.owl-prev {
+  left: -50px;
+}
+.owl-nav button.owl-next {
+  right:0px;
+}
+
+.owl-nav button span {
+  font-size: 40px;
+}
+.youtube-icon {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  font-size: 20px;
+  color: white;
+  background-color:transparent;
+  border: 2px solid whitesmoke;
+  padding: 10px 40px 10px 20px;
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+#pauseButton{
+  display: none;
+}
+/*Responsive layout*/
+/* 300px to 660px */
+
+@media (max-width: 660px) {
+section{
+	overflow-x: hidden;
+}
+
+.academy_image{
+		display: none;
+	}
+  .academy_section1,
+  .agency_container1,
+  .metoda_cards,
+  .metoda-heading {
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+  }
+#container1{
+	flex-direction: column-reverse;
+}
+
+.hero_section {
+
+    padding: 5% 0% 0 0%;
+}
+  .hero_content {
+    padding: 100px 40px;
+  }
+
+  .agency-content h1,
+  .metoda-heading h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .metoda_cards .card {
+    max-width: 100%;
+    min-height: auto;
+    padding: 30px 20px;
+  }
+
+  .card-footer {
+    padding: 20px;
+    max-width: 100%;
+  }
+
+  .ugc_card li p,
+  .metoda_cards .card ul li p {
+    font-size: 14px;
+  }
+
+  .ugc_card h2,
+  .ugc_card_header h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+.img-div img{
+	width: 100%;
+}
+ 
+
+ .chevron-down{
+     width: 30px;
+    height:30px;
+ }
+  .arrow{
+    width: 50px;
+    height:20px;
+  }
+    .accordion h1 {
+        font-size: 24px;
+    }
+
+        .accordion p {
+        font-size: 14px;
+        color: black;
+        font-weight: normal;
+        max-width: 50%;
+    }
+
+    .accordion-content h1{
+      font-size: 24px;
+    }
+.panel ul li{
+
+  font-size: 14px;
+}
+    
+
+
+.accordion-cards{
+  flex-direction: column;
+
+}
+
+.accordion-cards .card{
+   max-width: 600px;
+   max-height: 325px;
+   width: 100%;
+     display: flex;
+  flex-direction: column;
+
+}
+
+/*testimonial*/
+.testimonial_card{
+  display: flex;
+  gap: 10px;
+  margin: 5% auto;
+  margin-left: 5%;
+
+
+}
+
+
+.video-wrapper {
+  position: relative;
+   width: 90%;
+
+}
+
+.video-wrapper video {
+  width: 100%;
+    height: 100%;
+}
+
+.owl-nav button.owl-prev {
+  left: -25px;
+}
+
+}
+
+
+/* 661px to 767px */
+@media (min-width: 661px) and (max-width: 767px) {
+  .academy_section1,
+  .agency_container1,
+  .metoda_cards,
+  .metoda-heading {
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  .hero_content {
+    padding: 30px;
+  }
+
+  .metoda_cards .card {
+    max-width: 90%;
+    padding: 40px 30px;
+    min-height: auto;
+  }
+
+  .agency-content h1,
+  .metoda-heading h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .ugc_card h2,
+  .ugc_card_header h2 {
+    font-size: 22px;
+  }
+
+  .ugc_card li p,
+  .metoda_cards .card ul li p {
+    font-size: 15px;
+  }
+
+
+ .chevron-down{
+     width: 40px;
+    height:40px;
+ }
+  .arrow{
+    width: 50px;
+    height:20px;
+  }
+    .accordion h1 {
+        font-size: 28px;
+    }
+
+        .accordion p {
+        font-size: 16px;
+        color: black;
+        font-weight: normal;
+        max-width: 50%;
+    }
+
+    .accordion-content h1{
+      font-size: 24px;
+    }
+.panel ul li{
+
+  font-size: 16px;
+}
+    
+
+
+.accordion-cards{
+  flex-direction: column;
+
+}
+
+.accordion-cards .card{
+   max-width: 700px;
+   max-height: 325px;
+   width: 100%;
+     display: flex;
+  flex-direction: column;
+
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hero_content {
+    padding-left: 8%;
+    padding-right: 4%;
+  }
+
+  .academy_image img {
+    margin-top: 10%;
+  }
+
+  .agency-content h1 {
+    font-size: 32px;
+  }
+
+  .ugc_card h2,
+  .ugc_card_header h2 {
+    font-size: 20px;
+  }
+
+  .ugc_card li p {
+    font-size: 16px;
+    max-width: 600px;
+    line-height: 20px;
+  }
+
+  .metoda_cards {
+    gap: 16px;
+  }
+
+  .metoda_cards .card {
+    max-width: 360px;
+    padding: 40px 30px;
+    min-height: auto;
+  }
+
+  .metoda_cards .card p {
+    max-width: 300px;
+    font-size: 14px;
+  }
+
+  .metoda_cards .card ul li p {
+    font-size: 11px;
+    max-width: 320px;
+  }
+
+  .metoda-heading h1 {
+    font-size: 34px;
+  }
+
+  .metoda-section .card-header h5 {
+    font-size: 32px;
+  }
+
+  .small-head {
+    font-size: 24px;
+  }
+
+  .pink {
+    font-size: 16px;
+  }
+
+  .dark-black {
+    font-size: 20px;
+  }
+
+  .card-footer {
+    max-width: 95%;
+    padding: 25px;
+  }
+
+  .ugc_card_section6 h2 {
+    font-size: 28px;
+  }
+
+  .ugc-section5-card {
+    max-width: 100%;
+  }
+
+  .agency_container1 {
+   flex-direction: column;
+   	gap: 20px;
+  }
+
+  .agency_body {
+    gap: 30px;
+  }
+
+.img-div{
+	width: 100%;
+}
+
+.img-div img{
+	width: 100%;
+}
+
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,88 @@
+
+
+
+.hero_section::before {
+  background-image: url("images/image 30.png");
+
+  
+}
+
+.meta_section_3{
+  background: url("images/image 31.png");
+}
+
+.esta{
+  text-align: center;
+  margin: auto;
+}
+
+.flex_cards_content_meta,
+.ugc_card_meta{
+    background-color: rgba(248, 247, 245, 0.5); 
+
+border: 1px solid rgba(248, 247, 245, 0.25); ;
+}
+
+.flex_cards_content{
+    background-image: none;
+
+}    
+
+.flex_cards_content{
+         background-color: rgba(248, 247, 245, 0.5); 
+
+    background-size: cover;
+    backdrop-filter: blur(20px);
+    align-items: center;
+    text-align: center;
+    padding:50px 20px;
+    max-width: 184px;
+    border-radius: 20px;
+    max-height: 641px;
+}
+
+
+.flex_cards_content h1{
+   font-size: 12px;
+   margin-top: 10px;
+   font-weight: normal;
+   text-align: center;
+}
+.bold{
+  color: black;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+
+.about_us_card{
+ background-image: url('images/anastasiia-ornarin-C2lqNgCatCo-unsplash (1) 1.png');
+  padding-top: 20%;
+  margin-top: 50px;
+  position: relative;
+
+}
+.about_card_content{
+   color: #00000099;
+}
+
+.faq,
+.meta_section_5,
+.academy_section2{
+  background: url("images/Meta Section 2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.faq{
+  background: url("images/Meta section 4.png");
+}
+
+.meta_section_5{
+  background: url("images/UGC Section 5 (1).png");
+}
+
+.about_us{
+  background: whitesmoke;
+}
